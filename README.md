@@ -103,9 +103,13 @@ function. As mentioned above, you cannot use Java’s hashCode() method in your 
 You must implement all the public methods in the following interface:
 ```java
 public interface DictionaryADT {
+    
 public int put(Record rec) throws DuplicatedKeyException;
+
 public void remove(String key) throws InexistentKeyException;
+
 public Record get(String key);
+
 public int numRecords();
 }
 ```
