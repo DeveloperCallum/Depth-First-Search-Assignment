@@ -223,3 +223,12 @@ The format of this file is as follows:
 
 
 * The remaining lines of the file contain the characters `e` and `u`. Character `e` indicates an empty position of the board, and `u` indicates an unavailable position of the board. The following sample input file specifies a board of size 4 × 4 in which 3 symbols in adjacent positions are needed to win, and the quality parameter is equal to 3. In the game board all positions except two positions in the center are empty
+
+# Code  Provided
+
+The following files `DictionaryADT.java`, `PosPlay.java`, `Play.java`,
+`InexistentKeyException.java` and `DuplicatedKeyException.java`
+The main method is in the class `Play.java`.
+
+
+
